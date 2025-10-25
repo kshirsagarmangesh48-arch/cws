@@ -59,6 +59,8 @@ class _EnterMobilePageState extends State<EnterMobilePage> {
             key: _formKey,
             child: Column(
               spacing: 16,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CarouselSlider.builder(
                   carouselController: _carouselController,
@@ -77,7 +79,7 @@ class _EnterMobilePageState extends State<EnterMobilePage> {
                     );
                   },
                   options: CarouselOptions(
-                    height: size.height * 0.25,
+                    height: size.height * 0.4,
                     autoPlay: true,
                     viewportFraction: 1.0,
                     enlargeCenterPage: false,
@@ -109,16 +111,16 @@ class _EnterMobilePageState extends State<EnterMobilePage> {
                   }).toList(),
                 ),
                 Text(
-                  'Enter Your Mobile Number',
-                  textAlign: TextAlign.center,
-                  style: theme.textTheme.headlineSmall?.copyWith(
+                  'LOGIN / SIGNUP',
+                  textAlign: TextAlign.start,
+                  style: theme.textTheme.bodyLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
                   ),
                 ),
                 Text(
                   'We’ll send a one-time password (OTP) to verify your number.',
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.start,
                   style: theme.textTheme.bodyMedium?.copyWith(
                     color: Colors.grey[600],
                     height: 1.4,
@@ -177,6 +179,7 @@ class _EnterMobilePageState extends State<EnterMobilePage> {
                     color: CWSColors.blueButtonColor,
                   ),
                 ),
+
                 RichText(
                   textAlign: TextAlign.center,
                   text: TextSpan(
