@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739981387781",
+    "project_id": "advik-car-care",
+    "storage_bucket": "advik-car-care.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739981387781:android:680cbaab9985f6cea4146c",
+        "android_client_info": {
+          "package_name": "com.makeinsatara.cws"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUruQaoZStZ3edsEQNBOhlQd6gDJ-FEtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
